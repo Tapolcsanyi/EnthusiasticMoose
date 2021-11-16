@@ -17,23 +17,23 @@ SecretQuestion();
 
 void CanadaQuestion()
 {
-    bool isTrue = MooseAsks("Is Africe real?");
+    bool isTrue = MooseAsks("Is [people] real?");
     if (isTrue)
     {
-        MooseSays("cap.");
+        MooseSays("ok");
     }
     else
     {
-        MooseSays("fasho");
+        MooseSays("ok");
     }
 }
 
 void EnthusiasticQuestion()
 {
-    bool isEnthusiastic = MooseAsks("Are you racist?");
+    bool isEnthusiastic = MooseAsks("Are you real?");
     if (isEnthusiastic)
     {
-        MooseSays("Yay!");
+        MooseSays("oh!");
     }
     else
     {
@@ -43,10 +43,10 @@ void EnthusiasticQuestion()
 
 void LoveCSharpQuestion()
 {
-    bool doesLoveCSharp = MooseAsks("Do you love being racist yet?");
+    bool doesLoveCSharp = MooseAsks("Do you love repenting?");
     if (doesLoveCSharp)
     {
-        MooseSays("Good job sucking up to your master!");
+        MooseSays("Good luck sucking up to your master.");
     }
     else
     {
@@ -59,7 +59,7 @@ void SecretQuestion()
     bool wantsSecret = MooseAsks("Do you want to know a secret?");
     if (wantsSecret)
     {
-        MooseSays("im racist");
+        MooseSays("im not real");
     }
     else
     {
